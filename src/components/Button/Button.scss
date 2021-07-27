@@ -1,0 +1,92 @@
+@import '../../variables.scss';
+
+.button {
+    border: solid 1px;
+    cursor: pointer;
+
+    &:focus,
+    &:active {
+        outline: none;
+    }
+}
+
+.button--primary {
+    background-color: $primary-color;
+    border-color: $primary-color;
+    color: $white;
+    border-radius: 4px;
+
+    &:hover {
+        background-color: $primary-light;
+    }
+
+    &:active {
+        background-color: $primary-dark;
+    }
+
+    &:disabled {
+        opacity: 0.5;
+    }
+}
+
+.button--aux {
+    background-color: $secondary-color;
+    border-color: $secondary-color;
+    color: $white;
+    border-radius: 4px;
+
+    &:hover {
+        background-color: $secondary-light;
+    }
+
+    &:active {
+        background-color: $secondary-dark;
+    }
+
+    &:disabled {
+        background-color: $gray-5;
+        color: $gray-3;
+    }
+}
+
+.button--outline {
+    background-color: transparent;
+    color: $white;
+    border: solid 1px $white;
+    border-radius: 4px;
+
+    &:hover {
+        background-color: rgba($gray-6, 0.2);
+    }
+
+    &:active {
+        background-color: rgba($gray-6, 0.4);
+    }
+
+    &:disabled {
+        background-color: rgba($gray, 0.6);
+        color: $gray-4;
+    }
+}
+
+.button--link {
+    background: transparent;
+    border: none;
+    color: $primary-color;
+    text-decoration: underline;
+}
+
+.button--sm {
+    font-size: 0.875rem;
+    padding: 0.4375rem 1rem;
+}
+
+.button--md {
+    font-size: 1rem;
+    padding: 0.5625rem 1.25rem;
+}
+
+.button--lg {
+    font-size: 1.125rem;
+    padding: 0.8125rem 1.25rem;
+}

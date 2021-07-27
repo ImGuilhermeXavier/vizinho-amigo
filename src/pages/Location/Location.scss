@@ -1,0 +1,33 @@
+.location__btn {
+    margin-bottom: 10px;
+    background: #2F80ED;
+    border: transparent;
+    padding: 10px 5px;
+    border-radius: 25px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    width: 90%;
+}
+
+.location__btn--jump {
+    background-color: lightgrey;
+}
+
+.location__center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.location__title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.location__description {
+    padding: 20px 40px;
+    text-align: center;
+}

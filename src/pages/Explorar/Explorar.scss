@@ -1,0 +1,45 @@
+.explorar {
+    height: 100vh;
+    margin: 40px 10px;
+}
+
+.explorar__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.explorar__input {
+    width: 92%;
+    height: 35px;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    border: solid 1px lightgrey;
+}
+
+.explorar__cats {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+.explorar__cat {
+    background: #D5E6FB;
+    margin: 6px;
+    padding: 14px;
+    min-width: 136px;
+}
+
+.explorar__prod {
+    background: #D5E6FB;
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+}
+
+.explorar__prods {
+    display: flex;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,74 @@
+@import '../../variables.scss';
+
+.input__block {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.input__label {
+    display: block;
+    font-size: 1rem;
+    line-height: 1;
+    color: $gray-2;
+    padding-bottom: 0.25rem;
+}
+
+.input {
+    display: block;
+    border: solid 1.5px $gray-5;
+    color: $gray;
+    border-radius: 4px;
+    margin: 0.25rem;
+    transition: 0.2s;
+}
+
+.input--remake {
+    background: $gray-6;
+    border: solid 1px transparent;
+    border-bottom: solid 1px $gray;
+    border-radius: 0;
+}
+
+.input::placeholder {
+    color: $gray-3;
+}
+
+.input:disabled {
+    background: $gray-6;
+}
+
+.input:focus,
+.input:hover {
+    outline: none;
+    border-color: $primary-color;
+}
+
+.input--sm {
+    font-size: 0.875rem;
+    padding: 0.4rem 0.625rem;
+}
+
+.input--md {
+    font-size: 1rem;
+    padding: 0.6875rem 0.625rem;
+}
+
+.input--lg {
+    font-size: 1.125rem;
+    padding: 0.9375rem 0.625rem;
+}
+
+.input__error {
+    width: fit-content;
+    margin: 0.25rem;
+    padding: 0.125rem 0.5rem;
+    color: $white;
+    border-radius: 4px;
+    font-size: 0.8125rem;
+    background: $error;
+}
+
+.input--error {
+    border: solid 2px $error;
+}

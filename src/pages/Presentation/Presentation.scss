@@ -1,0 +1,39 @@
+.presentation {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.presentation__top {
+    background: #D5E6FB;
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentation__bot {
+    flex: 1;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.presentation__title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.presentation__desc {
+    line-height: 1.5;
+}
+
+.presentation__btn {
+    font-size: 18px;
+    background: white;
+    border: solid 1px lightgray;
+    padding: 14px;
+    border-radius: 30px;
+    align-self: flex-end;
+}
